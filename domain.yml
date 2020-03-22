@@ -17,11 +17,11 @@ responses:
 
   utter_intro:
   - text: |
-      Assuming one day, you wake up and find you are in a desert island alone.
+      Assuming one day, you wake up and find you are on a desert island alone.
       Sadly, you don't know how to survive there.
       Luckily, you have a broken phone in your pocket.
       The phone has a weak signal that enables you to make a SOS phone call.
-      So what you need to do is to call an SOS institution, ask them to help you to live there before the rescue team could find you.
+      So what you need to do is to call a SOS institution, ask them to help you to live there before the rescue team could find you.
       Now someone pick up your phone call...
 
   utter_ask_location:

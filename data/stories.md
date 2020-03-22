@@ -18,6 +18,7 @@
   - utter_any_question
 * potable_water
   - utter_ocean_water
+  - utter_any_question
 * deny
   - utter_find_food
   - utter_any_question
@@ -46,6 +47,7 @@
   - utter_any_question
 * potable_water
   - utter_ocean_water
+  - utter_any_question
 * deny
   - utter_find_food
   - utter_any_question
@@ -138,6 +140,7 @@
   - utter_any_question
 * potable_water
   - utter_ocean_water
+  - utter_any_question
 * deny
   - utter_find_food
   - utter_any_question
