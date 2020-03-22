@@ -3,6 +3,7 @@
   - utter_greet
 * affirm
   - utter_intro
+  - utter_offer_help
 * help
   - utter_ask_location
 * current_location
@@ -30,6 +31,7 @@
   - utter_greet
 * affirm
   - utter_intro
+  - utter_offer_help
 * help
   - utter_ask_location
 * current_location
@@ -64,6 +66,7 @@
   - utter_greet
 * affirm
   - utter_intro
+  - utter_offer_help
 * help
   - utter_ask_location
 * current_location
@@ -95,6 +98,7 @@
   - utter_greet
 * affirm
   - utter_intro
+  - utter_offer_help
 * help
   - utter_ask_location
 * current_location
@@ -123,6 +127,7 @@
   - utter_greet
 * affirm
   - utter_intro
+  - utter_offer_help
 * help
   - utter_ask_location
 * current_location
@@ -154,6 +159,7 @@
   - utter_greet
 * affirm
   - utter_intro
+  - utter_offer_help
 * help
   - utter_ask_location
 * current_location

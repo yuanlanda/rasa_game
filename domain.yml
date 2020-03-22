@@ -24,6 +24,9 @@ responses:
       So what you need to do is to call a SOS institution, ask them to help you to live there before the rescue team could find you.
       Now someone pick up your phone call...
 
+  utter_offer_help:
+  - text: "Hey! This is Rasa. What can I do for you?"
+
   utter_ask_location:
   - text: |
       Hey, I'm here to help you, please calm down.
@@ -38,7 +41,7 @@ responses:
   - text: |
       Let me check...
       According to the How To Survive If You Get Stranded On An Island,
-      First, you need to avoid injury...
+      first, you need to avoid injury...
       Are you injured？
 
   utter_help_with_injury:
@@ -87,7 +90,7 @@ responses:
       Stay tuned.
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Good luck! Bye"
 
 session_config:
   session_expiration_time: 60
