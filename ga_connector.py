@@ -49,7 +49,13 @@ class GoogleConnector(InputChannel):
                 if len(responses) == 0:
                     message = "No response"
                 else :
-                    message = responses[0]
+                    if len(responses) == 1:
+                        message = responses[0]
+                    else:
+                        message_tmp = ""
+                        for resp in responses:
+                            message_tmp += resp
+                        message = message_tmp
             r = {
                 "expectUserResponse": 'true',
                 "expectedInputs": [

@@ -1,31 +1,189 @@
-## happy path
+## play path injured with_shoes
 * greet
   - utter_greet
-* mood_great
-  - utter_happy
-
-## sad path 1
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
 * affirm
-  - utter_happy
+  - utter_intro
+* help
+  - utter_ask_location
+* current_location
+  - utter_GPS
+* deny
+  - utter_ask_situation
+* affirm
+  - utter_help_with_injury
+  - utter_body_protection
+* affirm
+  - utter_good_situation
+  - utter_find_fresh_water
+  - utter_any_question
+* potable_water
+  - utter_ocean_water
+* deny
+  - utter_find_food
+  - utter_any_question
+* thank
+  - utter_goodbye
 
-## sad path 2
+## play path injured without_shoes
 * greet
   - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
+* affirm
+  - utter_intro
+* help
+  - utter_ask_location
+* current_location
+  - utter_GPS
+* deny
+  - utter_ask_situation
+* affirm
+  - utter_help_with_injury
+  - utter_body_protection
+* deny
+  - utter_make_shoes
+  - utter_any_question
+* deny
+  - utter_find_fresh_water
+  - utter_any_question
+* potable_water
+  - utter_ocean_water
+* deny
+  - utter_find_food
+  - utter_any_question
+* rescue_team
+  - utter_rescue_team
+  - utter_any_question
+* deny
+  - utter_ending
+* thank
+  - utter_goodbye
+
+## play path injured without_shoes no_water_related
+* greet
+  - utter_greet
+* affirm
+  - utter_intro
+* help
+  - utter_ask_location
+* current_location
+  - utter_GPS
+* deny
+  - utter_ask_situation
+* affirm
+  - utter_help_with_injury
+  - utter_body_protection
+* deny
+  - utter_make_shoes
+  - utter_any_question
+* deny
+  - utter_find_fresh_water
+  - utter_any_question
+* deny
+  - utter_find_food
+  - utter_any_question
+* eatable_food
+  - utter_eatable
+  - utter_any_question
+* deny
+  - utter_ending
+* thank
+  - utter_goodbye
+
+## play path non_injured with_shoes 
+* greet
+  - utter_greet
+* affirm
+  - utter_intro
+* help
+  - utter_ask_location
+* current_location
+  - utter_GPS
+* deny
+  - utter_ask_situation
+* deny
+  - utter_good_situation
+  - utter_body_protection
+* affirm
+  - utter_find_fresh_water
+  - utter_any_question
+* deny
+  - utter_find_food
+  - utter_any_question
+* eatable_food
+  - utter_eatable
+  - utter_any_question
+* deny
+  - utter_ending
+* thank
+  - utter_goodbye
+
+## play path non_injured without_shoes no_water_related
+* greet
+  - utter_greet
+* affirm
+  - utter_intro
+* help
+  - utter_ask_location
+* current_location
+  - utter_GPS
+* deny
+  - utter_ask_situation
+* deny
+  - utter_good_situation
+  - utter_body_protection
+* deny
+  - utter_make_shoes
+  - utter_any_question
+* deny
+  - utter_find_fresh_water
+  - utter_any_question
+* potable_water
+  - utter_ocean_water
+* deny
+  - utter_find_food
+  - utter_any_question
+* deny
+  - utter_ending
+* thank
+  - utter_goodbye
+
+## play path non_injured with_shoes potable_water
+* greet
+  - utter_greet
+* affirm
+  - utter_intro
+* help
+  - utter_ask_location
+* current_location
+  - utter_GPS
+* deny
+  - utter_ask_situation
+* deny
+  - utter_good_situation
+  - utter_body_protection
+* affirm
+  - utter_good_situation
+  - utter_find_fresh_water
+  - utter_any_question
+* potable_water
+  - utter_ocean_water
+  - utter_any_question
+* deny
+  - utter_find_food
+  - utter_any_question
+* rescue_team
+  - utter_rescue_team
+  - utter_any_question
+* deny
+  - utter_ending
+* thank
+  - utter_goodbye
+
+## not paly path
+* greet
+  - utter_greet
 * deny
   - utter_goodbye
 
 ## say goodbye
 * goodbye
   - utter_goodbye
-
-## bot challenge
-* bot_challenge
-  - utter_iamabot

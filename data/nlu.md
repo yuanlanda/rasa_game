@@ -6,6 +6,35 @@
 - good evening
 - hey there
 
+## intent: help
+- I need help!
+- Please help me
+- hi I need help!
+- Hey I need help
+- SOS
+
+## intent: current_location
+- I'm on a desert island now and I don't know what to do
+- I don't where am I
+- I'm an an desert island
+- I'm on a beach now
+- I guess I'm on an island now
+
+## intent: emergency_situation
+- My boat has been destroyed and now I'm on an island with nothing
+- Can you send someone to rescue me?
+
+## intent: potable_water
+- Can I drink the ocean water?
+- Is that ocean water drinkable?
+
+## intent: eatable_food
+- Can I eat ****?
+- Is *** eatable?
+
+## intent: rescue_team
+- When will the rescue team come?
+
 ## intent:goodbye
 - bye
 - goodbye
@@ -27,30 +56,10 @@
 - no way
 - not really
 
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
-
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
-
-## intent:bot_challenge
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
+## intent:thank
+- thanks
+- thank you
+- Thanks a lot
+- Thanks a bunch
+- Thank you very much
+- Thank you so much

@@ -3,29 +3,91 @@ intents:
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - help
+  - current_location
+  - emergency_situation
+  - potable_water
+  - eatable_food
+  - rescue_team
+  - thank
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hey! Do you want to play a game?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_intro:
+  - text: |
+      Assuming one day, you wake up and find you are in a desert island alone.
+      Sadly, you don't know how to survive there.
+      Luckily, you have a broken phone in your pocket.
+      The phone has a weak signal that enables you to make a SOS phone call.
+      So what you need to do is to call an SOS institution, ask them to help you to live there before the rescue team could find you.
+      Now someone pick up your phone call...
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_ask_location:
+  - text: |
+      Hey, I'm here to help you, please calm down.
+      where are you now?
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_GPS:
+  - text: |
+      I'm sorry I can't located your GPS currently.
+      Are you Okay now?
+
+  utter_ask_situation:
+  - text: |
+      Let me check...
+      According to the How To Survive If You Get Stranded On An Island,
+      First, you need to avoid injury...
+      Are you injured？
+
+  utter_help_with_injury:
+  - text: "help with injury ***"
+
+  utter_body_protection:
+  - text: |
+      Next...It's easy to get your feet hurt on the island.
+      Are you wearing any shoes?
+
+  utter_make_shoes:
+  - text: "make shoes ***"
+
+  utter_find_fresh_water:
+  - text: |
+      Next tip...
+      You need to find fresh water
+      ****
+
+  utter_ocean_water:
+  - text: "ocean water ****"
+
+  utter_find_food:
+  - text: |
+      Let's move to the last tip...
+      You need to find food
+      ***
+
+  utter_eatable:
+  - text: "eatable ****"
+
+  utter_rescue_team:
+  - text: "rescue team ****"
+
+  utter_any_question:
+  - text: "Do you have any question so far? I'd like to help you."
+
+  utter_good_situation:
+  - text: "That's great!!"
+
+  utter_ending:
+  - text: |
+      That's all the basic tips you need to know.
+      If you have more questions, welcome to call me again.
+      In the mean time, our rescue team will try their best to find you.
+      Stay tuned.
 
   utter_goodbye:
   - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
 
 session_config:
   session_expiration_time: 60

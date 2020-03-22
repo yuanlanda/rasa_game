@@ -29,12 +29,12 @@
     "conversations": {
   "welcome": {
             "name": "welcome",
-            "url": "https://e83fe335.ngrok.io/webhooks/google_assistant/webhook",
+            "url": "https://29e3b2dc.ngrok.io/webhooks/google_assistant/webhook",
             "fulfillmentApiVersion": 2
   },
   "rasa_intent": {
             "name": "rasa_intent",
-            "url": "https://e83fe335.ngrok.io/webhooks/google_assistant/webhook",
+            "url": "https://29e3b2dc.ngrok.io/webhooks/google_assistant/webhook",
             "fulfillmentApiVersion": 2
   }
     }
