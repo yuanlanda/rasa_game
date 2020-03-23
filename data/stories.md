@@ -85,9 +85,6 @@
 * deny
   - utter_find_food
   - utter_any_question
-* eatable_food
-  - utter_eatable
-  - utter_any_question
 * deny
   - utter_ending
 * thank
@@ -113,9 +110,6 @@
   - utter_any_question
 * deny
   - utter_find_food
-  - utter_any_question
-* eatable_food
-  - utter_eatable
   - utter_any_question
 * deny
   - utter_ending

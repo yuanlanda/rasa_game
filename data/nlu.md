@@ -34,6 +34,7 @@
 
 ## intent: rescue_team
 - When will the rescue team come?
+- When will the rescue team come here?
 
 ## intent:goodbye
 - bye
@@ -47,6 +48,8 @@
 - of course
 - that sounds good
 - correct
+- yes I think my leg is injured
+- I think my leg is injured now
 
 ## intent:deny
 - no

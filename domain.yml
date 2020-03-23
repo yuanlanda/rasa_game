@@ -7,7 +7,6 @@ intents:
   - current_location
   - emergency_situation
   - potable_water
-  - eatable_food
   - rescue_team
   - thank
 
@@ -17,12 +16,12 @@ responses:
 
   utter_intro:
   - text: |
-      Assuming one day, you wake up and find you are on a desert island alone.
-      Sadly, you don't know how to survive there.
-      Luckily, you have a broken phone in your pocket.
-      The phone has a weak signal that enables you to make a SOS phone call.
-      So what you need to do is to call a SOS institution, ask them to help you to live there before the rescue team could find you.
-      Now someone pick up your phone call...
+      Assuming one day, you are marooned on a desert island alone.
+      You don't know how to survive there.
+      Luckily, you have phone in your pocket.
+      But this phone has a very limited feature only enables you to call SOS.
+      You can ask them to provide information on how to survive there.
+      Now someone picks up your phone call...
 
   utter_offer_help:
   - text: "Hey! This is Rasa. What can I do for you?"
@@ -40,41 +39,49 @@ responses:
   utter_ask_situation:
   - text: |
       Let me check...
-      According to the How To Survive If You Get Stranded On An Island,
-      first, you need to avoid injury...
+      First, you need to avoid injury...
       Are you injured？
 
   utter_help_with_injury:
-  - text: "help with injury ***"
+  - text: |
+      Cuts and scrapes can become infected, and should be cleaned. 
+      They may heal in the open or be protected by bandages. 
+      The best treatment for serious bleeding is direct pressure.
 
   utter_body_protection:
   - text: |
-      Next...It's easy to get your feet hurt on the island.
+      Next...
+      It's easy to get your feet hurt on the island.
       Are you wearing any shoes?
 
   utter_make_shoes:
-  - text: "make shoes ***"
+  - text: |
+      Your feet are some of your most important and vurnerable survival tools.
+      Shoes will protect you from cutting your feet.
+      Find stems, use them and make simple straw sandals.
 
   utter_find_fresh_water:
   - text: |
       Next tip...
-      You need to find fresh water
-      ****
+      You need to find fresh water.
+      Human can't live anymore than 8 to 10 days without water.
+      Sources of freshwater include streams, waterfalls and rain.
+      You'll need at least one liter of water per day.
 
   utter_ocean_water:
-  - text: "ocean water ****"
+  - text: |
+      You can drink. But human kidneys can only make urine that is less salty than salt water. 
+      Therefore, to get rid of all the excess salt taken in by drinking seawater, you have to urinate more water than you drank. 
+      Eventually, you die of dehydration even as you become thirstier.
 
   utter_find_food:
   - text: |
       Let's move to the last tip...
-      You need to find food
-      ***
-
-  utter_eatable:
-  - text: "eatable ****"
+      You need to find food.
+      Your best source of food will most likely be the fish in the shallow areas surrounding the beach.
 
   utter_rescue_team:
-  - text: "rescue team ****"
+  - text: "The rescue team will begin search and rescue soon."
 
   utter_any_question:
   - text: "Do you have any question so far? I'd like to help you."
