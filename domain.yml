@@ -5,24 +5,43 @@ intents:
   - deny
   - help
   - current_location
+  - play_desert_game
+  - play_snow_game
   - emergency_situation
   - potable_water
   - rescue_team
   - thank
+  - quit_game
 
 responses:
   utter_greet:
   - text: "Hey! Do you want to play a game?"
 
-  utter_intro:
+  utter_choose_game:
+  - text: |
+      We have two survival games: 
+      1. Desert Island  
+      2. Antarctic Pole
+      Please choose a game number.
+
+  utter_intro_desert:
   - text: |
       Assuming one day, you are marooned on a desert island alone.
+      You don't know how to survive there.
+      Luckily, you have a phone in your pocket.
+      But this phone has a very limited feature only enables you to call SOS.
+      You can ask them to provide information on how to survive there.
+      Now someone picks up your phone call...
+
+  utter_intro_snow:
+  - text: |
+      Assuming one day, you are marooned on the Antarctic Pole alone.
       You don't know how to survive there.
       Luckily, you have phone in your pocket.
       But this phone has a very limited feature only enables you to call SOS.
       You can ask them to provide information on how to survive there.
       Now someone picks up your phone call...
-
+  
   utter_offer_help:
   - text: "Hey! This is Rasa. What can I do for you?"
 
@@ -95,6 +114,9 @@ responses:
       If you have more questions, welcome to call me again.
       In the mean time, our rescue team will try their best to find you.
       Stay tuned.
+
+  utter_new_game:
+  - text: Do you want to play more game?
 
   utter_goodbye:
   - text: "Good luck! Bye"

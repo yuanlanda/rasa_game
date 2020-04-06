@@ -1,8 +1,10 @@
-## play path injured with_shoes
+## play desert path injured with_shoes
 * greet
   - utter_greet
 * affirm
-  - utter_intro
+  - utter_choose_game
+* play_desert_game
+  - utter_intro_desert
   - utter_offer_help
 * help
   - utter_ask_location
@@ -23,14 +25,36 @@
 * deny
   - utter_find_food
   - utter_any_question
-* thank
+* deny
+  - utter_ending
+  - utter_new_game
+* affirm
+  - utter_choose_game
+* quit_game
   - utter_goodbye
+
+<!-- ## play snow path
+* greet
+  - utter_greet
+* affirm
+  - utter_choose_game
+* play_snow_game
+  - utter_intro_snow
+  - utter_offer_help
+* help
+  - utter_ask_location
+* current_location
+  - utter_GPS
+* deny
+  - utter_ask_situation -->
 
 ## play path injured without_shoes
 * greet
   - utter_greet
 * affirm
-  - utter_intro
+  - utter_choose_game
+* play_desert_game
+  - utter_intro_desert
   - utter_offer_help
 * help
   - utter_ask_location
@@ -58,14 +82,19 @@
   - utter_any_question
 * deny
   - utter_ending
-* thank
+  - utter_new_game
+* affirm
+  - utter_choose_game
+* quit_game
   - utter_goodbye
 
 ## play path injured without_shoes no_water_related
 * greet
   - utter_greet
 * affirm
-  - utter_intro
+  - utter_choose_game
+* play_desert_game
+  - utter_intro_desert
   - utter_offer_help
 * help
   - utter_ask_location
@@ -87,14 +116,19 @@
   - utter_any_question
 * deny
   - utter_ending
-* thank
+  - utter_new_game
+* affirm
+  - utter_choose_game
+* quit_game
   - utter_goodbye
 
 ## play path non_injured with_shoes 
 * greet
   - utter_greet
 * affirm
-  - utter_intro
+  - utter_choose_game
+* play_desert_game
+  - utter_intro_desert
   - utter_offer_help
 * help
   - utter_ask_location
@@ -113,14 +147,19 @@
   - utter_any_question
 * deny
   - utter_ending
-* thank
+  - utter_new_game
+* affirm
+  - utter_choose_game
+* quit_game
   - utter_goodbye
 
 ## play path non_injured without_shoes no_water_related
 * greet
   - utter_greet
 * affirm
-  - utter_intro
+  - utter_choose_game
+* play_desert_game
+  - utter_intro_desert
   - utter_offer_help
 * help
   - utter_ask_location
@@ -145,14 +184,19 @@
   - utter_any_question
 * deny
   - utter_ending
-* thank
+  - utter_new_game
+* affirm
+  - utter_choose_game
+* quit_game
   - utter_goodbye
 
 ## play path non_injured with_shoes potable_water
 * greet
   - utter_greet
 * affirm
-  - utter_intro
+  - utter_choose_game
+* play_desert_game
+  - utter_intro_desert
   - utter_offer_help
 * help
   - utter_ask_location
@@ -178,7 +222,10 @@
   - utter_any_question
 * deny
   - utter_ending
-* thank
+  - utter_new_game
+* affirm
+  - utter_choose_game
+* quit_game
   - utter_goodbye
 
 ## not paly path

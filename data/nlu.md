@@ -6,6 +6,20 @@
 - good evening
 - hey there
 
+## intent: play_desert_game
+- 1
+- 1.
+- one
+
+## intent: play_snow_game
+- 2
+- 2.
+- two
+
+## intent: quit_game
+- quit game
+- stop game
+
 ## intent: help
 - I need help!
 - Please help me
@@ -25,16 +39,12 @@
 - Can you send someone to rescue me?
 
 ## intent: potable_water
-- Can I drink the ocean water?
+- Can I drink saltwater?
 - Is that ocean water drinkable?
-
-## intent: eatable_food
-- Can I eat ****?
-- Is *** eatable?
 
 ## intent: rescue_team
 - When will the rescue team come?
-- When will the rescue team come here?
+- Will the rescue team come here?
 
 ## intent:goodbye
 - bye
