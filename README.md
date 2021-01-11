@@ -2,5 +2,7 @@
 
 Demo video:
 
-![](qq.mov)
+<video>
+  <source src="qq.mov" type="video/mp4">
+</video>
 
