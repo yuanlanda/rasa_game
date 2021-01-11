@@ -2,5 +2,5 @@
 
 Demo video:
 
-<video src="./qq.mov"></video>
+![](./qq.mov)
 
